@@ -13,10 +13,20 @@ This guide assumes you have [eza](https://eza.rocks/) installed and accessible i
 ```powershell
 # Using Winget
 winget install eza-community.eza
-
-# Or using Scoop
-scoop install eza
 ```
+
+## Required fonts for best experience
+
+`eza` renders file icons and some visual elements using Nerd Fonts. For the full visual experience (icons, glyphs and proper alignment) please install the JetBrains Mono Nerd Font included in this repository.
+
+Run the installer script as Administrator on Windows to add the fonts system-wide:
+
+```powershell
+# Run from the repository root (Administrator PowerShell)
+./Install-JetBrainsNerdFont.ps1
+```
+
+After installing the fonts, restart your terminal or any open applications to pick up the new fonts.
 
 ## Procedure
 
