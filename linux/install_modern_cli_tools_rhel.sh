@@ -399,7 +399,7 @@ fi
 
 # bat (modern cat replacement)
 if command -v bat >/dev/null 2>&1; then
-    alias cat='bat --paging=never'
+    alias cat='bat --paging=never --style=plain'
     alias ccat='/usr/bin/cat'  # original cat
     alias bathelp='bat --plain --language=help'
     export MANPAGER="sh -c 'col -bx | bat -l man -p'"
