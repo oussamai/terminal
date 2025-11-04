@@ -19,8 +19,7 @@ A comprehensive installation script that upgrades your terminal experience with 
 ## Quick Start
 
 ```bash
-chmod +x install_cli_tools.sh
-./install_cli_tools.sh
+curl -fsSL https://raw.githubusercontent.com/oussamai/terminal/main/linux/install_modern_cli_tools_rhel.sh | zsh
 ```
 
 The script will:
